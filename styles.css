@@ -155,3 +155,10 @@ main {
 .boton-claro { background: var(--blanco); color: var(--morado); border: 2px solid var(--morado); }
 .boton-claro:hover { background: var(--rosado); color: var(--blanco); border-color: var(--rosado); }
 .tarjetas { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+.tarjeta img { height: 190px; object-fit: cover; }
+.miniatura { height: 190px; border-radius: 8px; margin-bottom: 0.5rem; padding: 1.2rem; color: #fff;
+  display: flex; flex-direction: column; justify-content: center;
+  background: linear-gradient(120deg, #1E3A5F, #3F7CAC); }
+.miniatura span { font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase; color: #9FF5D6; font-weight: 700; }
+.miniatura strong { font-size: 2rem; line-height: 1.1; }
